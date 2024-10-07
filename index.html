@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Animación -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>XD Portafolio Karla</title>
+</head>
+
+<body>
+    <!-- Navegación -->
+    <nav>
+        <h1>Karla Saavedra</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="about">
+        <img src="/assets/images/fotoperfil.jpg" alt="Perfil de Karla" class="hero-img">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+                Mi nombre es Karla Saavedra, estudiante de la Licenciatura en Ciencias de la Educación en la Universidad
+                Autónoma de Tlaxcala. Me considero una persona carismática y apasionada por trabajar con niños de
+                primaria. Mi meta es continuar desarrollándome en el área de la tecnología y la educación, explorando
+                cómo las herramientas tecnológicas pueden mejorar el proceso de enseñanza-aprendizaje y transformar la
+                experiencia educativa de los estudiantes.
+            </p>
+        </div>
+    </section>
+
+    <!-- More About -->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+            Soy estudiante del 8º semestre de la Licenciatura en Ciencias de la Educación en la Universidad Autónoma de Tlaxcala. Anteriormente cursé mis estudios de nivel medio superior en el CECyTE Tlaxcala 27, donde obtuve la carrera técnica en Programación. Me considero proactiva y siempre busco nuevas oportunidades para mejorar mis habilidades y conocimientos tanto en el ámbito educativo como tecnológico.
+        </p>
+        <p>
+            Me caracterizo por ser alegre, responsable y comprometida, siempre dispuesta a colaborar en equipo. Tengo un gran interés por la tecnología y creo firmemente en su capacidad para transformar el proceso educativo. 
+        </p>
+        <p>
+            Actualmente estoy trabajando en un proyecto de Biblioteca Virtual con alumnos de 6°, lo que me entusiasma por el impacto que tiene en su aprendizaje. En mi tiempo libre, disfruto leer, jugar fútbol, y pasar tiempo con mi familia.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-html-5.svg" alt="HTML" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img src="assets/icons/icons8-bootstrap.svg" alt="Boostrap" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/icons8-git.svg" alt="Git" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some Of My Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="assets/images/pinterestcopia.jpg" alt="Pinterest interface" loading="lazy" class="project-pic">
+                <h3 class="project-title">Pinterest Interface</h3>
+                <p class="project-details">This project is a clone of the Pinterest home interface, created purely with HTML5 and CSS3</p>
+                <a href="https://github.com/karly1709/Clon_pinterest.git" target="_blank">Check it out!</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/dualipa.jpg" alt="Website Dua Lipa" loading="lazy" class="project-pic">
+                <h3 class="project-title">Website Dua Lipa</h3>
+                <p class="project-details">This is a website project about the biography and social media of Dua Lipa, created purely with HTML5 and CSS3</p>
+                <a href="https://github.com/karly1709/DUA-LIPA.git" target="_blank">Check it out!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section id="contact">
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/karla-saavedra-76653831b/" target="_blank"><img src="assets/icons/linkedin.png" alt="LinkedIn" loading="lazy" class="socicon"></a>
+            <a href="https://github.com/karly1709" target="_blank"><img src="assets/icons/github.png" alt="GitHub" loading="lazy" class="socicon"></a>
+            <a href="https://www.instagram.com/karly_019/" target="_blank"><img src="assets/icons/instagram.png" alt="Instagram" loading="lazy" class="socicon"></a>
+            <a href="https://wa.me/522481732041" target="_blank"><img src="assets/icons/whatsapp.png" alt="WhatsApp" loading="lazy" class="socicon"></a>
+        </div>
+    </section>
+
+<!--Scroll button-->
+<i class="scroll-up" id="scroll-up">
+    <img src="assets/icons/arrow_up.gif" class="socicon up-arrow" alt="scroll up">
+</i>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Built with {💗} by Karly Sánchez 👩‍🏫💻🌈</p>
+    </footer>
+
+     <!-- JavaScript -->
+     <script src="app.js"></script>
+
+</body>
+
+</html>
